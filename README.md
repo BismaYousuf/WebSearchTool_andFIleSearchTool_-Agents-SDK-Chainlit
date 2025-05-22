@@ -22,17 +22,13 @@ This project is an AI assistant built using the `agents` SDK and Chainlit for ch
 - Python 3.8+ 🐍  
 - Install dependencies:
 
-```bash
 pip install -r requirements.txt
 Environment Variables
 Create a .env file in the root directory and add your API keys:
 
-env
-Copy
 OPEN_ROUTER_API_KEY=your_api_key_here
 Run the Agent
-bash
-Copy
+
 chainlit run main.py
 🛠 Usage
 Ask questions in the chat
